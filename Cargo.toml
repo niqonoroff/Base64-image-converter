@@ -1,0 +1,11 @@
+[package]
+name = "Base64_img_tool"
+version = "1.0.0"
+edition = "2024"
+description = "Конвертер изображений в Base64 и обратно (без потери качества)"
+
+[dependencies]
+base64 = "0.22"
+colored = "2.1"
+inquire = "0.7"
+indicatif = "0.17"
